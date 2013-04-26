@@ -52,7 +52,7 @@
 		16BB336FBFF4CAE9AB1E7D4F /* scoped_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoped_ptr.h; sourceTree = "<group>"; };
 		188E7526A7D8665ADE0D7DAC /* thread_win.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread_win.h; sourceTree = "<group>"; };
 		1C7FBC9BB0DE3313DE00DF10 /* rw_lock_generic.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rw_lock_generic.cc; sourceTree = "<group>"; };
-		23C343E761A553359AA37D12 /* threadpriorityhandler.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threadpriorityhandler.cc; sourceTree = "<group>"; };
+		23C343E761A553359AA37D12 /* threadpriorityhandler.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = threadpriorityhandler.cc; path = Libjingle/threadpriorityhandler.cc; sourceTree = "<group>"; };
 		24BE3E32DB35D4CBD087FEDF /* trace_event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trace_event.h; sourceTree = "<group>"; };
 		2589FA88CC45C982263FFBC9 /* release_defaults.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_defaults.gypi; path = ../../../../build/internal/release_defaults.gypi; sourceTree = "<group>"; };
 		2903C31C1366079A49DD6570 /* static_instance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = static_instance.h; sourceTree = "<group>"; };
