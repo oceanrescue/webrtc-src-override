@@ -121,7 +121,7 @@ const int kDynamicPayloadtypes[ACMCodecDB::kMaxNumCodecs] = {
     defined(WEBRTC_CODEC_CELT) || defined(WEBRTC_CODEC_G722_1) || \
     defined(WEBRTC_CODEC_G722_1C) || defined(WEBRTC_CODEC_G729_1) || \
     defined(WEBRTC_CODEC_PCM16) || defined(WEBRTC_CODEC_SPEEX))
-static int count_database = 0;
+//static int count_database = 0;
 #endif
 
 const CodecInst ACMCodecDB::database_[] = {
@@ -134,13 +134,21 @@ const CodecInst ACMCodecDB::database_[] = {
 #endif
 #ifdef WEBRTC_CODEC_PCM16
   // Mono
-  {kDynamicPayloadtypes[count_database++], "L16", 8000, 80, 1, 128000},
-  {kDynamicPayloadtypes[count_database++], "L16", 16000, 160, 1, 256000},
-  {kDynamicPayloadtypes[count_database++], "L16", 32000, 320, 1, 512000},
-  // Stereo
-  {kDynamicPayloadtypes[count_database++], "L16", 8000, 80, 2, 128000},
-  {kDynamicPayloadtypes[count_database++], "L16", 16000, 160, 2, 256000},
-  {kDynamicPayloadtypes[count_database++], "L16", 32000, 320, 2, 512000},
+//  {kDynamicPayloadtypes[count_database++], "L16", 8000, 80, 1, 128000},
+//  {kDynamicPayloadtypes[count_database++], "L16", 16000, 160, 1, 256000},
+//  {kDynamicPayloadtypes[count_database++], "L16", 32000, 320, 1, 512000},
+//  // Stereo
+//  {kDynamicPayloadtypes[count_database++], "L16", 8000, 80, 2, 128000},
+//  {kDynamicPayloadtypes[count_database++], "L16", 16000, 160, 2, 256000},
+//  {kDynamicPayloadtypes[count_database++], "L16", 32000, 320, 2, 512000},
+    {kDynamicPayloadtypes[0], "L16", 8000, 80, 1, 128000},
+    {kDynamicPayloadtypes[1], "L16", 16000, 160, 1, 256000},
+    {kDynamicPayloadtypes[2], "L16", 32000, 320, 1, 512000},
+    // Stereo
+    {kDynamicPayloadtypes[3], "L16", 8000, 80, 2, 128000},
+    {kDynamicPayloadtypes[4], "L16", 16000, 160, 2, 256000},
+    {kDynamicPayloadtypes[5], "L16", 32000, 320, 2, 512000},
+
 #endif
   // G.711, PCM mu-law and A-law.
   // Mono
